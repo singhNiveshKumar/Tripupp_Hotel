@@ -1,0 +1,1754 @@
+
+<!--//////////////// HEADER /////////////////////////-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tripupp</title>
+  <!--bootstrap 4 cdn-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!--slick_carousel-->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css" />
+
+
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css" />
+
+  <!--  Animate CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+  
+
+  <!-- Foots CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="icon" href="static\home\image\fevicon.jpeg" type="image/jpeg" sizes="16x16">
+
+  <!---top_activity-->
+
+  <link rel="stylesheet" href="static\home\css\flickity.min.css" >
+  <link rel="stylesheet" href="static\home\css\style.css">
+  
+  <!--foot of home-->
+  <!--navbar hover-->
+  <style type="text/css">
+    #h:hover {
+      background-color: white;
+    }
+  </style>
+  <!--header style-->
+  <style>
+    .imu {
+      background-image: url("static\home\image\home-header.jpeg");
+      background-size: 90%;
+      background-repeat: no-repeat;
+      height: 490px;
+    }
+
+    .content {
+      padding-top: 100px;
+      background: rgba(248, 246, 246, 0.1);
+      height: 400px;
+    }
+  </style>
+  <!--top destination style start-->
+
+
+  <link rel='stylesheet' id='goto-theme-style-css'
+    href='http://haintheme.com/demo/wp/goto/wp-content/themes/goto/style.css?ver=5.1.1' type='text/css' media='all' />
+
+
+  <link rel='stylesheet' id='tiny-slider-css'
+    href='http://haintheme.com/demo/wp/goto/wp-content/themes/goto/css/tiny-slider.css?ver=5.1.1' type='text/css'
+    media='all' />
+
+  <link rel="stylesheet" type="text/css"  href="static\home\css\top_activity.css">
+  <link rel="stylesheet" type="text/css" href="static\home\css\frontend.min.css">
+
+  <!--top_destination end-->
+  <!--navbar-->
+  <style type="text/css">
+    .navbar-nav li:hover>ul.dropdown-menu {
+      display: block;
+    }
+  </style>
+  <!--top_destination 1-->
+  <style type="text/css">
+    .top_destination .flickity-button {
+      position: absolute;
+      background: rgba(7, 7, 7, 0.75);
+      border: none;
+      color: black;
+      background-color: #ff704d;
+    }
+
+    .top_destination .carousel-cell {
+      width: 20%;
+      height: 350px;
+      padding-right: 10px;
+      border-radius: 10px;
+      counter-increment: carousel-cell;
+    }
+
+    .top_destination .carousel-cell img {
+      height: 350px;
+
+    }
+
+    .top_destination .content {
+      position: relative;
+      max-width: 400px;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .top_destination .content .content-overlay {
+      background: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      height: 99%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s;
+    }
+
+    .top_destination .content:hover .content-overlay {
+      opacity: 0.9;
+    }
+
+    .top_destination .content-details {
+      position: absolute;
+      text-align: center;
+      padding-left: 1em;
+      padding-right: 1em;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      opacity: 0;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      -moz-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
+
+    .top_destination .content:hover .content-details {
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+    }
+
+    .top_destination .content-details h3 {
+      color: #fff;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      margin-bottom: 0.5em;
+      text-transform: uppercase;
+    }
+
+    .top_destination .content-details p {
+      color: #fff;
+      font-size: 0.8em;
+    }
+
+    .top_destination .fadeIn-bottom {
+      top: 80%;
+    }
+  </style>
+  <!--slick-slider-->
+  <link rel="stylesheet" type="text/css" href="static\home\css\slick.css">
+  <link rel="stylesheet" type="text/css" href="static\home\css\slick-theme.css">
+
+  <style type="text/css">
+    .slider {
+      width: 100%;
+      margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 10px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+      height: 300px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: #ff3300;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+
+    }
+  </style>
+
+
+  <!--css package_in_demand-->
+  <style type="text/css">
+    .package_img {
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 300px;
+      -webkit-transition: all 0.7s ease;
+      -moz-transition: all 0.7s ease;
+      -ms-transition: all 0.7s ease;
+      transition: all 0.7s ease;
+    }
+
+    .package_content {
+      padding-top: 170px;
+      background: rgba(0, 0, 0, 0.4);
+      height: 300px;
+      -webkit-transition: all 0.7s ease;
+      -moz-transition: all 0.7s ease;
+      -ms-transition: all 0.7s ease;
+      transition: all 0.7s ease;
+    }
+
+    .package_img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+  <!--holiday_theme-->
+  <style type="text/css">
+    .holiday_img {
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 150px;
+    }
+
+    .holiday_content {
+      padding-top: 65px;
+      background: rgba(0, 0, 0, 0.5);
+      height: 150px;
+    }
+  </style>
+  <!--package_demand-->
+  <style type="text/css">
+    .hovereffect {
+      width: 100%;
+      height: 100%;
+      float: left;
+      overflow: hidden;
+      position: relative;
+      cursor: default;
+    }
+
+    .hovereffect .overlay {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+      transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+    }
+
+    .hovereffect:hover .overlay {
+      background-color: rgba(48, 152, 157, 0.4);
+    }
+
+    .hovereffect img {
+      display: block;
+      position: relative;
+    }
+
+    .content {
+      color: white;
+    }
+
+    .hovereffect:hover .content {
+      display: none;
+    }
+
+    .hovereffect a.info {
+      display: inline-block;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      border: 1px solid #fff;
+      background-color: transparent;
+      opacity: 0;
+      filter: alpha(opacity=0);
+      -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+      transform: scale(0);
+      -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+      transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+      font-weight: normal;
+      margin: -52px 0 0 0;
+      padding: 62px 100px;
+    }
+
+    .hovereffect:hover a.info {
+      opacity: 1;
+      filter: alpha(opacity=100);
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+
+    .hovereffect a.info:hover {
+      box-shadow: 0 0 5px #fff;
+    }
+  </style>
+  <!---holiday_idea-->
+  <style type="text/css">
+    .holiday_idea_img {
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 250px;
+      -webkit-transition: all 0.7s ease;
+      -moz-transition: all 0.7s ease;
+      -ms-transition: all 0.7s ease;
+      transition: all 0.7s ease;
+    }
+
+    .holiday_idea_content {
+      background: rgba(0, 0, 0, 0.6);
+      height: 250px;
+      padding-top: 15px;
+    }
+
+    .holiday_idea_img:hover {
+      transform: scale(0.9);
+    }
+  </style>
+
+  <!--weekend_gateway-->
+  <style type="text/css">
+    .weekend_gateway h5 {
+      background: rgba(0, 0, 0, 0);
+      font-size: 24px;
+      color: white;
+      position: absolute;
+      width: 100%;
+
+      margin-top: -146%;
+      height: 300px;
+      padding-top: 125%;
+    }
+
+    .weekend_gateway img {
+      position: relative;
+    }
+  </style>
+
+  <!--holiday_story-->
+  <style type="text/css">
+    .holiday_story img {
+      position: relative;
+    }
+
+    .holiday_story h5 {
+      position: absolute;
+      margin-top: -52%;
+      height: 107px;
+      padding-top: 35%;
+      color: white;
+      width: 100%;
+      padding-left: 5%;
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .holiday_story h6 {
+      position: absolute;
+      text-align: center;
+      height: 201px;
+      margin-top: -150%;
+      padding-top: 60%;
+      color: white;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.7);
+    }
+  </style>
+
+  <!--navbar transparent-->
+
+  <style>
+    .navbar.transparent.navbar-inverse .navbar-inner {
+      border-width: 0px;
+      -webkit-box-shadow: 0px 0px;
+      box-shadow: 0px 0px;
+      background-color: rgba(0, 0, 0, 0.0);
+      background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
+      background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+      background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+    }
+
+    #h:hover {
+      color: orangered;
+      font-weight: bold;
+      background-color: none;
+    }
+  </style>
+
+  <!--weekend image effect -->
+
+  <style>
+    .img-hover-zoom {
+      height: 300px;
+
+      overflow: hidden;
+
+    }
+
+    .img-hover-zoom img {
+      transition: transform .7s ease;
+    }
+
+    .img-hover-zoom:hover img {
+      transform: scale(1.2);
+    }
+  </style>
+
+
+  <!-- /////// Holiday Themes ///////-->
+
+
+
+
+
+
+  <!-- Custom CSS -->
+  <link href="static\home\css\foot.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+
+
+  <nav class="navbar1 navbar-inverse navbar-expand-md navbar-muted" style="background-color:azure;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><p style="font-family:Edwardian Script ITC;color: red;font-size:30px;">T <span style="font-family:Cambria;color: red;font-size:30px;">rippup</span></p></a>
+      </div>
+    
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user" style="font-size:15px;"></span></a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+
+
+
+
+
+
+
+
+
+
+  <!--////////////// INDEX - navbar -//////////////////-->
+
+
+  <!-- aria-haspopup="true" aria-expanded="false" -->
+
+
+
+
+  <div class="imu">
+
+
+
+
+
+
+
+
+    <!-- //////////////////////////////////////////// Navbar /////////////////////////////////////////////-->
+
+
+
+
+
+
+
+  <div class="container" style="max-width: 1200px!important;">
+    <nav class="navbar navbar-expand-lg bg-transparent navbar-inverse">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="color: black"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown ml-1 mr-1">
+            <a class="nav-link dropdown-toggle  font-weight-bold nava" href="#" id="navbarDropdown"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:rgb(0, 0, 0)">
+              <span style="color: black">Getaways</span>
+              
+            </a>
+            <ul class="dropdown-menu  pl-2 pr-2" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#" id="h" style="margin-top: 5px!important;"><i class="fas fa-caret-right" style="color: rgba(220,220,220)!important;"></i> Places</a></li>
+              </ul>
+          </li>
+          <li class="nav-item dropdown ml-1 mr-1">
+            <a class="nav-link dropdown-toggle  font-weight-bold nava1" href="#" id="navbarDropdown"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(0, 0, 0)">
+              <span style="color: black">Destinations</span>
+            </a>
+            <ul class="dropdown-menu pl-2 pr-2" aria-labelledby="navbarDropdown">
+              
+                
+                  <li> <a class="dropdown-item" href="#" id="h"><i class="fas fa-caret-right" style="color: rgba(220,220,220)!important;"></i>can enter anything</a></li>
+                
+               </ul>
+          </li>
+          <li class="nav-item dropdown ml-1 mr-1">
+            <a class="nav-link dropdown-toggle  font-weight-bold nava2" href="#" id="navbarDropdown"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(0, 0, 0)">
+              <span style="color: black">Holiday Theme</span>
+            </a>
+            <ul class="dropdown-menu pl-2 pr-2" aria-labelledby="navbarDropdown">
+
+              
+                
+                  <li> <a class="dropdown-item" href="#" id="h"><i class="fas fa-caret-right" style="color: rgba(220,220,220)!important;"></i>Sports</a></li>
+                
+          </ul>
+          </li>
+          <li class="nav-item dropdown ml-1 mr-1">
+            <a class="nav-link dropdown-toggle  font-weight-bold nava3" href="#" id="navbarDropdown"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(0, 0, 0)">
+              <span style="color: black">Companion</span>
+            </a>
+            <ul class="dropdown-menu  pl-2 pr-2" aria-labelledby="navbarDropdown">
+              <li> <a class="dropdown-item" href="#" id="h" style="margin-top: 5px!important;"><i class="fas fa-caret-right" style="color: rgba(220,220,220)!important;"></i> Spouse</a></li>
+              </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item  ml-1 mr-1">
+            <a class="nav-link  text-white font-weight-bold" href="#" id="navbarDropdown"><i class="fas fa-cubes" style="color: black"></i> <span style="color: black">Packages</span></a>
+          </li>
+          <li class="nav-item  ml-1 mr-1">
+            <a class="nav-link  text-white font-weight-bold" href="#">
+              <i class="fas fa-hotel" style="color: black"></i><span style="color: black">Hotel</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white font-weight-bold" href="#">
+             <i class="fas fa-paper-plane" style="color: black"></i><span style="color: black">Flight</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white font-weight-bold" href="#">
+             <i class="fas fa-wallet" style="color: black"></i><span style="color: black">Visa</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--//////////////////////////////////////////////////// Header ///////////////////////////////////////////////////////////////-->
+
+
+
+
+    <div class="content">
+      <h3 class="font-weight-normal text-black text-center" style="color: black">Planning Your Holidays</h3>
+      <h5 class="text-white text-center">Find travel packages from sellers across destination
+      </h5>
+      <div class="input-group mb-3 col-4 offset-4 mt-5">
+
+        <!-- //////////    Search Bar ///////////-->
+<!--        <div class="container">-->
+          <div id="search-form" class="search-form js-search-form">
+            <form class="form-search" role="search" action="/search.php" method="get">
+                <div class="input-group custom">
+                    <input type="text" class="form-control" placeholder="Enter city | check-out | Rooms & guests" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-info" type="button" style="color:white!important">
+                            <i class="fa fa-search"></i>
+                            <span style="color: white!important;">Explore</span>
+                            
+                        </button>
+                    </span>
+                </div>
+            </form>
+            
+        </div>
+<!--        </div>-->
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- ///////// Hotels_in_Goa //////////-->
+
+
+
+
+
+  <div class="card m-3" style="border: 0!important;height: 720px!important;">
+      <h1 class="subheading" style="margin-left: 27px!important;font-weight:normal "  data-aos="fade-up" data-aos-duration="1500">Hotels in Goa<br><span style="font-size: 30px">Best forever</span></h1>
+      <span style="margin-left: 27px!important;font-size: 20px;"  data-aos="fade-up" data-aos-duration="1500">Best Hotel for you
+      <span class="input-group-btn1" data-aos="fade-up" data-aos-duration="1500">
+          <button class="btn btn-info1" type="button">
+              <span style="color: rgb(243, 28, 64)!important;">Explore</span>
+          </button>
+      </span>
+      </span>
+  
+  <div class="package_demand" data-aos="fade-up" data-aos-duration="1500">
+    
+     <div class="cardcontainer col-lg-12 col-sm-12 col-xs-12" style="left:10%;">
+                 <div class="card col-lg-3 col-sm-12 col-xs-12">
+                  <img src="media\city_pics\None\corridor.jpg" style="height: 110%">
+                     <div class="bottom-left">
+
+                         <h4 style="margin-top: 0px!important;margin-bottom: 7px!important;font-family: 'Lato', sans-serif!important;">City Hotel Paris</h4>
+                         <p style="color:white!important;font-size: 12px!important;letter-spacing: 1px!important;margin-bottom: 0px!important;font-family: 'Lato', sans-serif!important;">Top Best forever</p>
+                         <p style="margin-bottom: 0px!important;"><i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:white;"></i></p>
+                     </div>
+                 </div>
+                 <div class="card col-lg-3 col-sm-12 col-xs-12">
+                  <img src="media\city_pics\None\india1.jpg" style="height: 110%">
+                  <div class="bottom-left">
+                         
+                    <h4 style="margin-top: 0px!important;margin-bottom: 7px!important;font-family: 'Lato', sans-serif!important;">City Hotel Paris</h4>
+                    <p style="color:white!important;font-size: 12px!important;letter-spacing: 1px!important;margin-bottom: 0px!important;font-family: 'Lato', sans-serif!important;">Top Best forever</p>
+                    <p style="margin-bottom: 0px!important;"><i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:white;"></i></p>
+               </div>
+                 </div>
+                
+                 <div class="card col-lg-3 col-sm-12 col-xs-12" style="background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url(./image/goa.jpg);">
+                  <img src="media\city_pics\None\corridor.jpg" style="height: 110%">
+                  <div class="bottom-left">
+                       
+                    <h4 style="margin-top: 0px!important;margin-bottom: 7px!important;font-family: 'Lato', sans-serif!important;">City Hotel Paris</h4>
+                    <p style="color:white!important;font-size: 12px!important;letter-spacing: 1px!important;margin-bottom: 0px!important;font-family: 'Lato', sans-serif!important;">Top Best forever</p>
+                    <p style="margin-bottom: 0px!important;"><i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:white;"></i></p>
+                 </div>
+                 </div>
+              </div>
+              
+              <div class="cardcontainer col-lg-12 col-sm-12 col-xs-12" style="left:10%;">
+                 <div class="card col-lg-3 col-sm-12 col-xs-12" style="background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url(./image/goa.jpg);">
+                  <img src="media\city_pics\None\india1.jpg" style="height: 110%">   
+                  <div class="bottom-left">
+                       
+                    <h4 style="margin-top: 0px!important;margin-bottom: 7px!important;font-family: 'Lato', sans-serif!important;">City Hotel Paris</h4>
+                    <p style="color:white!important;font-size: 12px!important;letter-spacing: 1px!important;margin-bottom: 0px!important;font-family: 'Lato', sans-serif!important;">Top Best forever</p>
+                    <p style="margin-bottom: 0px!important;"><i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:white;"></i></p>
+                </div>
+                 </div>
+                 <div class="card col-lg-3 col-sm-12 col-xs-12" style="background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url(./image/goa.jpg);">
+                  <img src="media\city_pics\None\corridor.jpg" style="height: 110%">   
+                  <div class="bottom-left">
+                     
+                    <h4 style="margin-top: 0px!important;margin-bottom: 7px!important;font-family: 'Lato', sans-serif!important;">City Hotel Paris</h4>
+                    <p style="color:white!important;font-size: 12px!important;letter-spacing: 1px!important;margin-bottom: 0px!important;font-family: 'Lato', sans-serif!important;">Top Best forever</p>
+                    <p style="margin-bottom: 0px!important;"><i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:white;"></i></p>
+                </div>
+                 </div>
+                 
+                 <div class="card col-lg-3 col-sm-12 col-xs-12" style="background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url(./image/goa.jpg);">
+                  <img src="media\city_pics\None\india1.jpg" style="height: 110%">                        
+                  <div class="bottom-left">
+                      
+                    <h4 style="margin-top: 0px!important;margin-bottom: 7px!important;font-family: 'Lato', sans-serif!important;">City Hotel Paris</h4>
+                    <p style="color:white!important;font-size: 12px!important;letter-spacing: 1px!important;margin-bottom: 0px!important;font-family: 'Lato', sans-serif!important;">Top Best forever</p>
+                    <p style="margin-bottom: 0px!important;"><i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:rgb(245,166,35);"></i> <i class="fas fa-star" style="color:white;"></i></p>
+                </div>
+                 </div>
+              </div>
+          </div>
+  </div>
+  
+  
+  
+
+
+
+
+
+
+
+  <!--//////// Hotels_in_mumbai ////////--->
+
+  <div class="card m-3" style="border: 0!important;height: 600px!important;">
+    <h1 class="subheading" style="margin-left: 27px!important;font-weight:normal "  data-aos="fade-up" data-aos-duration="1500">Hotels in Mumbai<br><span style="font-size: 25px">Top best forever</span></h1>
+    <span style="margin-left: 27px!important;font-size: 20px;"  data-aos="fade-up" data-aos-duration="1500"><span style="border-bottom: 1px solid rgb(255, 71, 132)!important;">we present top hotels for you</span> 
+    <span class="input-group-btn1" data-aos="fade-up" data-aos-duration="1500">
+        <button class="btn btn-info1" type="button">
+            <span style="color: rgb(243, 28, 64)!important;">Explore</span>
+        </button>
+    </span>
+    </span>
+      <div data-elementor-type="post" data-elementor-id="4" class="elementor elementor-4" data-elementor-settings="[]">
+    
+          <section data-id="bf076e5"
+            class="elementor-element elementor-element-bf076e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+            data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+    
+    
+              <div data-id="4dea0a8"
+                class="elementor-element elementor-element-4dea0a8 elementor-column elementor-col-67 elementor-top-column"
+                data-element_type="column" data-aos="fade-up" data-aos-duration="1500">
+                <div class="elementor-column-wrap  elementor-element-populated">
+                  <div class="elementor-widget-wrap">
+                    <div data-id="5373587"
+                      class="elementor-element elementor-element-5373587 elementor-widget elementor-widget-dest-tax"
+                      data-element_type="dest-tax.default">
+                      <div class="elementor-widget-container">
+                        <div class="wd-dest">
+                          <div class="wd-dest-layout-carousel ht-grid ht-grid-3 ht-grid-tablet-2 ht-grid-mobile-1">
+                          
+                           <section class=" topDestination slider col-sm-12 col-xs-12">
+    
+                              <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                <div class="wdd-item">
+    
+                                  <img class="wdd-img"
+                                    src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/vietnam-768x512.jpeg"
+                                    alt="Tour list image">
+                                  <div class="wdd-cont">
+                                    <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Taj hotel Mumbai</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                    
+                                    <div class="wddc-desc" itemprop="text">
+                                      <p>
+                                        <i class="fas fa-star" style="color:rgb(245, 35, 116);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                      <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                      </span></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                <div class="wdd-item">
+    
+                                  <img class="wdd-img"
+                                    src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/maldives-768x425.jpg"
+                                    alt="Tour list image">
+                                  <div class="wdd-cont">
+                                      <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">hotel Plaza</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                    
+                                      <div class="wddc-desc" itemprop="text">
+                                        <p>
+                                          <i class="fas fa-star" style="color:rgb(245, 35, 133);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                        <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                        </span></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                <div class="wdd-item">
+    
+                                  <img class="wdd-img"
+                                    src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/france-768x512.jpeg"
+                                    alt="Tour list image">
+                                  <div class="wdd-cont">
+                                      <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">hotel Mumbai</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                    
+                                      <div class="wddc-desc" itemprop="text">
+                                        <p>
+                                          <i class="fas fa-star" style="color:rgb(245, 35, 175);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                        <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                        </span></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                <div class="wdd-item">
+    
+                                  <img class="wdd-img"
+                                    src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/england-768x512.jpeg"
+                                    alt="Tour list image">
+                                  <div class="wdd-cont">
+                                      <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">fariyas hotel Mumbai</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                    
+                                      <div class="wddc-desc" itemprop="text">
+                                        <p>
+                                          <i class="fas fa-star" style="color:rgb(245, 35, 88);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                        <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                        </span></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                <div class="wdd-item">
+    
+                                  <img class="wdd-img"
+                                    src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/dubai-768x432.jpeg"
+                                    alt="Tour list image">
+                                  <div class="wdd-cont">
+                                      <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">hotel Marine plaza</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                    
+                                      <div class="wddc-desc" itemprop="text">
+                                        <p>
+                                          <i class="fas fa-star" style="color:rgb(245, 35, 116);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                        <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                        </span></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                <div class="wdd-item">
+    
+                                  <img class="wdd-img"
+                                    src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/china-768x512.jpeg"
+                                    alt="Tour list image">
+                                  <div class="wdd-cont">
+                                      <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Top hotel Mumbai</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                    
+                                      <div class="wddc-desc" itemprop="text">
+                                        <p>
+                                          <i class="fas fa-star" style="color:rgb(245, 35, 151);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                        <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                        </span></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                <div class="wdd-item">
+    
+                                  <img class="wdd-img"
+                                    src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/vietnam-768x512.jpeg"
+                                    alt="Tour list image">
+                                  <div class="wdd-cont">
+                                      <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Top hotel Mumbai</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                    
+                                      <div class="wddc-desc" itemprop="text">
+                                        <p>
+                                          <i class="fas fa-star" style="color:rgb(245, 35, 123);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                        <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                        </span></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+    
+                              <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                <div class="wdd-item">
+    
+                                  <img class="wdd-img"
+                                    src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/maldives-768x425.jpg"
+                                    alt="Tour list image">
+                                  <div class="wdd-cont">
+                                      <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Top hotel Mumbai</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                    
+                                      <div class="wddc-desc" itemprop="text">
+                                        <p>
+                                          <i class="fas fa-star" style="color:rgb(245, 35, 140);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                        <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                        </span></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </section>
+      </div>
+        </div>
+            </div> 
+    
+    
+    
+  </div>
+
+
+
+  <!--//////// Hotels_in_delhi ////////--->
+
+  <div class="card m-3" style="border: 0!important;height: 600px!important;">
+      <h1 style="margin-left: 27px!important;font-weight:normal;padding-left: 7px;font-family: 'Montserrat', sans-serif!important;font-size: 40px!important;font-weight: normal!important;line-height: 1.25;color: #333333!important;margin-top: 27px;margin-bottom: 23px;letter-spacing: 1px;text-align: center!important; "  data-aos="fade-up" data-aos-duration="1500"><span style="border-right:5px solid rgb(243, 28, 64)!important;border-bottom:1px solid rgb(243, 28, 64)!important;">Hotels</span><span style="border-top:1px solid rgb(243, 28, 64)!important;"> in delhi</span><br><span style="font-size: 25px">Top best forever</span></h1>
+      <span style="margin-left: 27px!important;font-size: 20px;"  data-aos="fade-up" data-aos-duration="1500"><span style="border-bottom: 1px solid rgb(255, 71, 132)!important;">we present top hotels for you</span> 
+      <span class="input-group-btn1" data-aos="fade-up" data-aos-duration="1500">
+          <button class="btn btn-info1" type="button">
+              <span style="color: rgb(243, 28, 64)!important;">Explore</span>
+          </button>
+      </span>
+      </span>
+        <div data-elementor-type="post" data-elementor-id="4" class="elementor elementor-4" data-elementor-settings="[]">
+      
+            <section data-id="bf076e5"
+              class="elementor-element elementor-element-bf076e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+              data-element_type="section">
+              <div class="elementor-container elementor-column-gap-default">
+      
+      
+                <div data-id="4dea0a8"
+                  class="elementor-element elementor-element-4dea0a8 elementor-column elementor-col-67 elementor-top-column"
+                  data-element_type="column" data-aos="fade-up" data-aos-duration="1500">
+                  <div class="elementor-column-wrap  elementor-element-populated">
+                    <div class="elementor-widget-wrap">
+                      <div data-id="5373587"
+                        class="elementor-element elementor-element-5373587 elementor-widget elementor-widget-dest-tax"
+                        data-element_type="dest-tax.default">
+                        <div class="elementor-widget-container">
+                          <div class="wd-dest">
+                            <div class="wd-dest-layout-carousel ht-grid ht-grid-3 ht-grid-tablet-2 ht-grid-mobile-1">
+                            
+                             <section class=" topDestination slider col-sm-12 col-xs-12">
+      
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/vietnam-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                      <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Taj hotel Delhi</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                      <div class="wddc-desc" itemprop="text">
+                                        <p>
+                                          <i class="fas fa-star" style="color:rgb(245, 35, 116);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                        <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                        </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/maldives-768x425.jpg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">hotel Plaza</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 133);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/france-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">hotel Delhi</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 175);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/england-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">fariyas hotel Delhi</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 88);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/dubai-768x432.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">hotel Marine plaza</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 116);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/china-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Top hotel Delhi</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 151);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/vietnam-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Top hotel Delhi</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 123);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+      
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/maldives-768x425.jpg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Top hotel Mumbai</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 140);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </section>
+        </div>
+          </div>
+              </div> 
+      
+      
+      
+    </div>
+
+
+    
+  <!--//////// Hotels_in_bangalore ////////--->
+
+  <div class="card m-3" style="border: 0!important;height: 600px!important;">
+      <h1 class="subheading" style="margin-left: 27px!important;font-weight:normal "  data-aos="fade-up" data-aos-duration="1500">Hotels in Bangalore<br><span style="font-size: 25px">Top best forever</span></h1>
+      <span style="margin-left: 27px!important;font-size: 20px;"  data-aos="fade-up" data-aos-duration="1500"><span style="border-bottom: 1px solid rgb(255, 71, 132)!important;">we present top hotels for you</span> 
+      <span class="input-group-btn1" data-aos="fade-up" data-aos-duration="1500">
+          <button class="btn btn-info1" type="button">
+              <span style="color: rgb(243, 28, 64)!important;">Explore</span>
+          </button>
+      </span>
+      </span>
+        <div data-elementor-type="post" data-elementor-id="4" class="elementor elementor-4" data-elementor-settings="[]">
+      
+            <section data-id="bf076e5"
+              class="elementor-element elementor-element-bf076e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+              data-element_type="section">
+              <div class="elementor-container elementor-column-gap-default">
+      
+      
+                <div data-id="4dea0a8"
+                  class="elementor-element elementor-element-4dea0a8 elementor-column elementor-col-67 elementor-top-column"
+                  data-element_type="column" data-aos="fade-up" data-aos-duration="1500">
+                  <div class="elementor-column-wrap  elementor-element-populated">
+                    <div class="elementor-widget-wrap">
+                      <div data-id="5373587"
+                        class="elementor-element elementor-element-5373587 elementor-widget elementor-widget-dest-tax"
+                        data-element_type="dest-tax.default">
+                        <div class="elementor-widget-container">
+                          <div class="wd-dest">
+                            <div class="wd-dest-layout-carousel ht-grid ht-grid-3 ht-grid-tablet-2 ht-grid-mobile-1">
+                            
+                             <section class=" topDestination slider col-sm-12 col-xs-12">
+      
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/vietnam-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                      <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Taj hotel bangalore</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                      <div class="wddc-desc" itemprop="text">
+                                        <p>
+                                          <i class="fas fa-star" style="color:rgb(245, 35, 116);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                        <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                        </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/maldives-768x425.jpg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">hotel Plaza</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 133);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/france-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">hotel bangalore</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 175);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/england-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">fariyas hotel bangalore</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 88);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/dubai-768x432.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">hotel Marine plaza</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 116);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/china-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Top hotel bangalore</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 151);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/vietnam-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Top hotel bangalore</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 123);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+      
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/maldives-768x425.jpg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Top hotel Mumbai</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 140);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </section>
+        </div>
+          </div>
+              </div> 
+      
+      
+      
+    </div>
+
+
+
+
+    
+  <!--//////// Hotels_in_kolkata ////////--->
+
+  <div class="card m-3" style="border: 0!important;height: 600px!important;">
+      <h1 class="subheading" style="margin-left: 27px!important;font-weight:normal "  data-aos="fade-up" data-aos-duration="1500">Hotels in Kolkata<br><span style="font-size: 25px">Top best forever</span></h1>
+      <span style="margin-left: 27px!important;font-size: 20px;"  data-aos="fade-up" data-aos-duration="1500"><span style="border-bottom: 1px solid rgb(255, 71, 132)!important;">we present top hotels for you</span> 
+      <span class="input-group-btn1" data-aos="fade-up" data-aos-duration="1500">
+          <button class="btn btn-info1" type="button">
+              <span style="color: rgb(243, 28, 64)!important;">Explore</span>
+          </button>
+      </span>
+      </span>
+        <div data-elementor-type="post" data-elementor-id="4" class="elementor elementor-4" data-elementor-settings="[]">
+      
+            <section data-id="bf076e5"
+              class="elementor-element elementor-element-bf076e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+              data-element_type="section">
+              <div class="elementor-container elementor-column-gap-default">
+      
+      
+                <div data-id="4dea0a8"
+                  class="elementor-element elementor-element-4dea0a8 elementor-column elementor-col-67 elementor-top-column"
+                  data-element_type="column" data-aos="fade-up" data-aos-duration="1500">
+                  <div class="elementor-column-wrap  elementor-element-populated">
+                    <div class="elementor-widget-wrap">
+                      <div data-id="5373587"
+                        class="elementor-element elementor-element-5373587 elementor-widget elementor-widget-dest-tax"
+                        data-element_type="dest-tax.default">
+                        <div class="elementor-widget-container">
+                          <div class="wd-dest">
+                            <div class="wd-dest-layout-carousel ht-grid ht-grid-3 ht-grid-tablet-2 ht-grid-mobile-1">
+                            
+                             <section class=" topDestination slider col-sm-12 col-xs-12">
+      
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/vietnam-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                      <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Taj hotel Kolkata</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                      <div class="wddc-desc" itemprop="text">
+                                        <p>
+                                          <i class="fas fa-star" style="color:rgb(245, 35, 116);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                        <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                        </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/maldives-768x425.jpg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">hotel Plaza</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 133);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/france-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">hotel kolkata</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 175);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/england-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">fariyas hotel kolkata</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 88);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/dubai-768x432.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">hotel Marine plaza</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 116);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/05/china-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Top hotel kolkata</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 151);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/vietnam-768x512.jpeg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Top hotel kolkata</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 123);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+      
+                                <div class="ht-grid-item" itemscope="itemscope" itemtype="https://schema.org/CreativeWork" style="320px!important;">
+                                  <div class="wdd-item">
+      
+                                    <img class="wdd-img"
+                                      src="http://haintheme.com/demo/wp/goto/wp-content/uploads/2018/04/maldives-768x425.jpg"
+                                      alt="Tour list image">
+                                    <div class="wdd-cont">
+                                        <h3 class="wddc-name entry-title" itemprop="headline"><span style="font-size: 15px;">Top hotel Mumbai</span><br><span style="font-size: 10px">top best forever</span></h3>
+                                      
+                                        <div class="wddc-desc" itemprop="text">
+                                          <p>
+                                            <i class="fas fa-star" style="color:rgb(245, 35, 140);"><span style="color:black;font-weight: normal;">(14k review)</span></i>
+                                          <span style="text-align: right;">6 day/7 night<br><p style="text-align: right">RS 25000</p>
+                                          </span></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </section>
+        </div>
+          </div>
+              </div> 
+      
+      
+      
+    </div>
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+ 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+ 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+  </script>
+
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/js/mdb.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  
+
+
+  <script type='text/javascript' src='http://haintheme.com/demo/wp/goto/wp-content/themes/goto/js/tiny-slider.js'>
+  </script>
+  <script type='text/javascript' src=" static\home\js\top_activity.js "></script>
+  <script type='text/javascript' src=" static\home\js\top_destination.js "></script>
+  <script type='text/javascript' src=" static\home\js\place_by_state.js "></script>
+  <script type='text/javascript' src=" static\home\js\adventure_trip.js "></script>
+  <script type='text/javascript' src=" static\home\js\romantic_holiday.js "></script>
+  <script type='text/javascript' src=" static\home\js\family_holiday.js "></script>
+  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+  </script>
+
+  <script type="text/javascript">
+    function destination() {
+      var y = document.getElementById("hide");
+      y.style.display = "none";
+      var x = document.getElementById("show");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+
+<script>
+    $(document).ready(function () {
+   
+    $('ul.nav li.dropdown').hover(function () {
+        $(this).find('.mega-dropdown-menu').stop(true, true).delay(200).fadeIn(200);
+    }, function () {
+        $(this).find('.mega-dropdown-menu').stop(true, true).delay(200).fadeOut(200);
+    });
+    
+     
+    $('.form-search').click(function (event) {
+        $(".instant-results").fadeIn('700').css('height', 'auto');
+        event.stopPropagation();
+    });
+
+    $('body').click(function () {
+        $(".instant-results").fadeOut('700');
+    });
+});
+</script>
+
+
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="static\home\js\slick.min.js " type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function () {
+
+      $(".regular").slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+    });
+  </script>
+
+
+  
+  <script type="text/javascript">
+    $('.topDestination').slick({
+      centerMode: false,
+      centerPadding: '50px',
+      slidesToShow: 5,
+      responsive: [{
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '30px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  </script>
+  
+ 
+  
+  <script type="text/javascript">
+    $('.topActivity').slick({
+      centerMode: false,
+      centerPadding: '50px',
+      slidesToShow: 3,
+      responsive: [{
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '30px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  </script>
+
+
+  <script type="text/javascript">
+    $('.center').slick({
+      centerMode: false,
+      centerPadding: '50px',
+      slidesToShow: 5,
+      responsive: [{
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '30px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  </script>
+ 
+  <script type="text/javascript">
+    $('.filtering').slick({
+      slidesToShow: 5,
+      slidesToScroll: 4
+    });
+
+    var filtered = false;
+
+    $('.js-filter').on('click', function () {
+      if (filtered === false) {
+        $('.filtering').slick('slickFilter', ':even');
+        $(this).text('Unfilter Slides');
+        filtered = true;
+      } else {
+        $('.filtering').slick('slickUnfilter');
+        $(this).text('Filter Slides');
+        filtered = false;
+      }
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(".nava").hover(function () {
+        $(".nava").css("color", "#ff3300");
+      }, function () {
+        $(".nava").css("color", "white");
+      });
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $(".nava1").hover(function () {
+        $(".nava1").css("color", "#ff3300");
+      }, function () {
+        $(".nava1").css("color", "white");
+      });
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $(".nava2").hover(function () {
+        $(".nava2").css("color", "#ff3300");
+      }, function () {
+        $(".nava2").css("color", "white");
+      });
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $(".nava3").hover(function () {
+        $(".nava3").css("color", "#ff3300");
+      }, function () {
+        $(".nava3").css("color", "white");
+      });
+    });
+  </script>
+  
+
+
+</body>
+
+</html>
